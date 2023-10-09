@@ -1,10 +1,10 @@
 {
   "page1": {
     "html": "<h1>Welcome to Page 1</h1><p>This is the content of Page 1.</p>",
-    "loadScript": true
+    "loadScript": false
   },
   "page2": {
     "html": "<h1>Test page</h1><p>Test to see if page as JSON data can work with event listeners</p><button id='btn-test-listeners' class='btnTestListeners'>Test Listeners 1</button><button id='btn-test-listeners2' class='btnTestListeners2'>Test Listeners 2</button><script>document.addEventListener('DOMContentLoaded', function(){ console.log('DOM loaded'); const btnTestListeners=document.querySelector('#btn-test-listeners'); const btnTestListeners2=document.querySelector('#btn-test-listeners2'); // Corrected selector btnTestListeners.addEventListener('click', testListeners); btnTestListeners2.addEventListener('click', testListeners2); function testListeners(){ console.log('Testing listener'); alert('Listener tested');} function testListeners2(){ console.log('Testing listener 2'); alert('Listener 2 tested');}});</script>",
-    "loadScript": false
+    "loadScript": true
   }
 }
