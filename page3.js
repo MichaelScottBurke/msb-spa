@@ -1,3 +1,7 @@
+function testClickEvent() {
+        alert('click event with button onclick working in Forge');
+        console.log('click event with button onclick working in Forge');
+}
 document.getElementById('btn-test-3').addEventListener('click', function() {
         console.log('test 3');
         alert('Test 3');
