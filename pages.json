@@ -6,5 +6,9 @@
   "page2": {
     "html": "<h1>Welcome to Page 2</h1><p>This is the content of Page 2.</p>",
     "loadScript": false
+  },
+  "page3": {
+    "html": "<h1>Test page 3</h1><p>Testing page 3 with script</p><button id='btn-test-3' class='btnTest3'>Test 3</button>",
+    "loadScript": true
   }
 }
