@@ -8,7 +8,7 @@
     "loadScript": false
   },
   "page3": {
-    "html": "<h1>Test page 3</h1><p>Testing page 3 with script</p><button id='btn-test-3' class='btnTest3'>Test 3</button>",
+    "html": "<h1>Test page 3</h1><p>Testing page 3 with script</p><button id='btn-test-3' class='btnTest3'>Test 3</button><button id='btn-test-4' class='btnTest3' onClick='alert(\"onclick works\");'>Test 4</button>",
     "loadScript": true
   }
 }
