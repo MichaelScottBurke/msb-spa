@@ -1,0 +1,22 @@
+{
+  "metadata": [],
+  "_id": "1",
+  "lastUpdated": "2023-10-12",
+  "lockedForEditing": false,
+  "files": [
+    {
+      "type": "html",
+      "content": "<div class=\"msb-card\">\n  <div class=\"msb-card-header\">\n    <div class=\"msb-card-header-container\">\n      <div class=\"msb-card-title\">Title</div>\n      <div class=\"msb-card-subtitle\">Subtitle</div>\n    </div>\n  </div>\n  <div class=\"msb-card-content\">\n    <p>content</p>\n  </div>\n  <div class=\"msb-card-actions\">\n    <button class=\"msb-button\">Action</button>\n  </div>\n</div>"
+    },
+    {
+      "type": "css",
+      "content": "html {\n  font-size: 100%;\n}\nbody {\n  font-family: sans-serif;\n  font-size: 1rem;\n  background-color: #f5f5f5;\n  margin: 1.5rem;\n  color: rgba(0, 0, 0, 0.87);\n}\n.msb-card {\n  background-color: white;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  border-radius: 12px;\n  padding: 1rem;\n  width: 17.75rem;\n  height: 15.5rem;\n  margin-right: 1rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n.msb-card-header {\n}\n.msb-card-title {\n  font-size: 1.25rem;\n  font-weight: 600;\n  margin-bottom: 0.25rem;\n}\n.msb-card-subtitle {\n  font-size: 1rem;\n}\n.msb-card-content {\n  flex: 1 1 auto;\n  display: flex;\n  align-items: flex-start;\n  align-content: flex-start;\n  justify-content: flex-start;\n}\n.msb-card-actions {\n}\n.msb-button {\n  cursor: pointer;\n}"
+    },
+    {
+      "type": "js",
+      "content": "const cardAction = document.querySelector('.msb-button');\ncardAction.addEventListener('click', () => {\n  console.log('card action clicked');\n});"
+    }
+  ],
+  "shortId": "msb1",
+  "__v": 0
+}
